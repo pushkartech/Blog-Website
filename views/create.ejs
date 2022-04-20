@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <%- include('../partials/head.ejs') %>
+        <%- include('../partials/nav.ejs') %>
+    </head>
+    <body>
+        
+        <br><br>
+        <div class="create-blog content">
+            <form action = '/allblogs' method = 'POST'>
+                <label for = 'title'>Title</label>
+                <input type = 'text' id = 'title' name = 'title'>
+                <br><br>
+                <label for = 'snippet'>Snippet</label>
+                <input type = 'text' id = 'snippet' name = 'snippet'>
+                <br><br>
+                <label for = 'body'>Body</label>
+                <textarea id = 'body' name = 'body'></textarea>
+                <br><br>
+                <button>SUBMIT</button>
+            </form>
+        </div>
+    </body>
+</html>

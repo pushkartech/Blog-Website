@@ -1,0 +1,129 @@
+li {
+    display: inline-block;
+    margin: 0 10px;
+    align-items: flex-end;
+    
+}
+
+.navigation a {
+    text-decoration: none;
+    font-family: "Georgia",Serif;
+    text-align: end;
+    color: papayawhip;
+}
+.navigation ul{
+    text-align: center;
+    
+}
+  
+.navigation{
+    
+    background-color: darkgray;
+    justify-content: end;
+    padding:6.5px;
+}
+
+
+.mainheading h1{
+    font-family: "Georgia",Serif;
+    font-size: 44px;
+    text-align: center;
+    background-color: orange;
+    padding:20px
+}
+
+create-blog form{
+    max-width: 499px;
+    margin: 0 auto;
+  }
+  .create-blog input,
+  .create-blog textarea{
+    display: block;
+    width: 80%;
+    margin: 10px 0;
+    padding: 8px;
+    margin-left: 160px;
+    border-radius: 15px;
+  }
+  .create-blog label{
+    display: block;
+    margin-top: 24px;
+    margin-left: 700px;
+    font-size: 25px;
+    font-family: cursive;
+  }
+  textarea{
+    height: 120px;
+  }
+  .create-blog button{
+    margin-top: 10px;
+    background: rgb(152, 16, 194);
+    color: white;
+    padding: 6px;
+    border: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-left: 700px;
+    
+  }
+
+  .bloghome {
+      border : 2px #2b0063 solid;
+      border-radius: 15px;
+      margin: 10px;
+      column-count: auto;
+  }
+  
+  .bloghome a{
+      text-decoration: none;
+      color:rgb(10, 4, 58);
+  }
+  .bloghome a:visited{
+    text-decoration: none;
+    color:rgb(10, 4, 58);
+  }
+  .bloghome a:hower{
+    text-decoration: none;
+    color:greenyellow;
+  }
+  .bloghome a:active{
+    text-decoration: none;
+    color:rgb(10, 4, 58);
+  }
+  .bloghome h3{
+      font-size: 25px;
+      font-family: serif;
+      text-align: center;
+  }
+  .bloghome p{
+      line-height: 3px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+.blogsub h2{
+    font-size: 35px;
+      font-family: serif;
+      text-align: center;
+}
+.blogsub p{
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.delete {
+    margin-top: 10px;
+    background: rgb(255, 0, 0);
+    color: black;
+    padding: 6px;
+    border: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-left: 740px;
+}
+
+.about{
+    text-align: center;
+    font-size: 35px;
+}
