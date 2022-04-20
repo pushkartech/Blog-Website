@@ -13,7 +13,7 @@ app.use(express.static('public'));
 //view engine type
 app.set('view engine', 'ejs');
 
-const dbURI='mongodb+srv://pushkar:pushpush@cluster0.pupnc.mongodb.net/WEBD1?retryWrites=true&w=majority';
+const dbURI='mongodb+srv://pushkar:pushkarchoudhary@cluster0.pupnc.mongodb.net/WEBD1?retryWrites=true&w=majority';
 mongoose.connect(dbURI,{ useNewUrlParser: true, useUnifiedTopology: true })
     .then(result => app.listen(3000))
     .catch(err => console.log(err));
